@@ -3,16 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "stencil build --dev --watch --serve",
-    "build": "stencil build"
+    "start": "serve www -l 8080",
+    "rebuild": "stencil build"
   },
   "dependencies": {
-    "@aejkatappaja/phantom-ui": "beta"
+    "serve": "^14.2.4"
   },
   "devDependencies": {
+    "@aejkatappaja/phantom-ui": "beta",
     "@stencil/core": "^4.43.5"
-  },
-  "optionalDependencies": {
-    "@rollup/rollup-linux-x64-musl": "*"
   }
 }
