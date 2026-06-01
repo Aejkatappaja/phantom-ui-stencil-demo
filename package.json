@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "@stencil/core": "^4.43.5"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-musl": "*"
   }
 }
