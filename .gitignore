@@ -5,3 +5,5 @@ loader
 .stencil
 *.log
 .DS_Store
+
+package-lock.json
